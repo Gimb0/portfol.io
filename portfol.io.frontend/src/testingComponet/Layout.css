@@ -1,0 +1,107 @@
+
+:root {
+    --landscape-width: 25;
+    --portrait-width: 80vw;
+    --header-height: 4rem;
+    --secs: 0.4s;
+    --bg-left: white;
+    --bg-right: white;
+    --bg-main: lemonchiffon;
+}
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+#layout {
+    display: flex;
+    overflow: hidden;
+}
+#layout .header {
+    position: relative;
+    text-align: center;
+}
+#layout .header .title {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+#layout .content {
+    overflow: auto;
+    box-sizing: border-box;
+    height: calc(100vh - var(--header-height));
+    padding: 1rem;
+}
+#main {
+    background: var(--bg-main);
+    flex-grow: 1;
+}
+#main .header {
+    background: linear-gradient(to right, var(--bg-left), var(--bg-right));
+}
+@media (orientation: landscape) {
+    #main .header .title {
+        transition: left var(--secs), right var(--secs);
+   }
+    #main .header .title.left-closed {
+        left: var(--header-height);
+   }
+    #main .header .title.right-closed {
+        right: var(--header-height);
+   }
+}
+#left, #right {
+    transition: width var(--secs);
+    width: 0;
+}
+@media (orientation: landscape) {
+    #left.open {
+        width: calc(1% * var(--landscape-width));
+   }
+}
+#left .icon {
+    z-index: 10;
+    width: var(--header-height);
+    height: var(--header-height);
+    line-height: var(--header-height);
+    font-size: var(--header-height);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.iconImg {
+    width: 50px;
+
+}
+
+#left .sidebar {
+    transition: transform var(--secs);
+}
+@media (orientation: portrait) {
+    #left .sidebar{
+        width: var(--portrait-width);
+   }
+}
+@media (orientation: landscape) {
+    #left .sidebar{
+        width: calc(1vw * var(--landscape-width));
+   }
+}
+#left .sidebar .header{
+    width: calc(100% - var(--header-height));
+}
+#left {
+    z-index: 5;
+}
+#left .sidebar {
+    background: var(--bg-left);
+}
+#left .sidebar.closed {
+    transform: translateX(-100%);
+}
+#left .sidebar .header {
+    left: var(--header-height);
+}
+

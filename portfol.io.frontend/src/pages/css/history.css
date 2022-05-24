@@ -1,0 +1,12 @@
+.center-header {
+    text-align: center
+}
+
+.year-card {
+    width: 71.5vw;
+}
+
+.year-card table {
+    width: 100%;
+    table-layout: fixed;
+}

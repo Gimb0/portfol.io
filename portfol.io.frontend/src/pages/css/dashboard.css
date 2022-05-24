@@ -1,0 +1,90 @@
+.chart-wrapper {
+  padding: 1%;
+  margin: 1%;
+  display: inline-block;
+}
+
+.main.chart-wrapper {
+  /* background-color: lightcoral; */
+  width: 70vw;
+  height: 30vw;
+}
+
+.main.card {
+  width: 71.5vw;
+  height: 30vw;
+}
+
+.sub.chart-wrapper {
+  width: 35vw;
+  height: 35vw;
+  
+}
+
+.sub.card {
+  width: 35vw;
+  height: 35vw;
+  
+}
+
+.sub.cardBody {
+  width: 35vw;
+  height: 35vw;
+  
+}
+
+.circles {
+  /* background-color: khaki; */
+  position: relative;
+}
+
+.holdings {
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+}
+
+a {
+  color: #1aa260;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #1bbb6e;
+}
+
+/* Simple responsivenss example */
+@media (max-width: 1370px) {
+  .main.chart-wrapper {
+    width: 65vw;
+    height: 30vw;
+  }
+
+  .main.card {
+    width: 65vw;
+    height: 30vw;
+  }
+
+  .sub.chart-wrapper {
+    width: 63vw;
+    height: 63vw;
+  }
+
+  .sub.card {
+    width: 65vw;
+    height: 65vw;
+    
+  }
+  
+  .sub.cardBody {
+    width: 65vw;
+    height: 65vw;
+    
+  }
+
+  .holdings {
+    position: relative;
+    width: 60vw;
+    height: 60vw;
+  }
+}

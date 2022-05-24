@@ -1,0 +1,66 @@
+.circleStyle1 {
+    padding: 10;
+    margin: 20;
+    display: inline-block;
+    background-color: #21cc7a;
+    border-radius: 50%;
+    width: 65%;
+    height: 65%;
+    padding-top: 27%;
+    text-align: left;
+    padding-left: 5%;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    top: 35%;
+    right: 35%;
+    font-size: 1.5vw;
+
+
+}
+
+.circleStyle2 {
+    padding: 10;
+    margin: 20;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    width: 65%;
+    height: 65%;
+    padding-top: 23%;
+    text-align: center;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    top: 0%;
+    right: 0%;
+    font-size: 3vw;
+
+}
+
+.greenColor {
+    color: #21cc7a;
+}
+
+.redColor {
+    color: red;
+}
+
+.blackColor {
+    color: white;
+}
+
+.circle1 {
+    border-style: solid;
+    border-color: black;
+}
+
+
+@media (max-width: 1370px) {
+.circleStyle1 {
+    font-size: 3vw;
+}
+.circleStyle2 {
+    font-size: 6vw;
+}
+}

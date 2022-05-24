@@ -1,0 +1,158 @@
+.container-login100 {
+    width: 100%;  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .wrap-login100 {
+      padding-left: 55px;
+      padding-right: 55px;
+      padding-top: 80px;
+      padding-bottom: 30px;
+      width: 450px;
+      background: #e6e6e6;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+      -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+      -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .login100-form {
+    width: 100%;
+  }
+  
+  .login100-form-title {
+      padding-bottom: 37px;
+      display: block;
+      font-size: 30px;
+      color: white;
+      line-height: 1.2;
+      text-align: center;
+  } 
+
+  /*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+  border-radius: 20px;
+  border-style: hidden; 
+}
+
+.input100 {
+  font-size: 16px;
+  color: black;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 62px;
+  background: transparent;
+  padding: 0 20px 0 23px;
+  border-style: hidden; 
+  border-radius: 20px;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+  }
+  
+  .login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #1aa260;
+    border-radius: 25px;
+    font-size: 14px;
+    color: white;
+    line-height: 1.2;
+    text-transform: uppercase;
+      border-style: hidden; 
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+  }
+  
+  .login100-form-btn:hover {
+    background-color: #1bbb6e;
+  }
+  
+  .txt2, .txt2:hover{
+      color: white;
+  }
+
+
+.dateInput {
+    border-radius: 20px;
+    border-style: none;
+	  width: 100%;
+    background-color: #fff;
+}
+
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+
+.wrap-input300 {
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+  border-radius: 20px;
+  border-style: hidden; 
+}
+
+.wrap-input200 {
+	margin-bottom: 20px;
+}

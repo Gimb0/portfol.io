@@ -1,0 +1,25 @@
+.chart-wrapper {
+    padding: 1%;
+    margin: 1%;
+    display: inline-block;
+  }
+
+.main.chart-wrapper {
+    width: 70vw;
+}
+  
+.main.card {
+    width: 71.5vw;
+    padding: 1px;
+    overflow-y: auto;
+}
+
+.headerText {
+    color: #1aa260;
+    font-size: 20px;
+}
+
+#transactionTypeSelect {
+    margin: 4px;
+}
+  
